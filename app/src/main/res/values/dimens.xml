@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="LinearLayout_activity_editor">16dp</dimen>
+    <dimen name="text_size_product_name">20sp</dimen>
+    <dimen name="paddingLeft_hint_product_name">16dp</dimen>
+    <dimen name="text_size_hint_product_name">16sp</dimen>
+    <dimen name="text_size_price">20sp</dimen>
+    <dimen name="paddingLeft_hint_price">16dp</dimen>
+    <dimen name="text_size_hint_number">16sp</dimen>
+    <dimen name="layout_marginTop">20dp</dimen>
+    <dimen name="layout_width_decrease_button">70dp</dimen>
+    <dimen name="layout_height_decrease_button">50dp</dimen>
+    <dimen name="text_size_decrease_button">20sp</dimen>
+    <dimen name="layout_width_hint_quantity">100dp</dimen>
+    <dimen name="layout_width_increase_button">70dp</dimen>
+    <dimen name="layout_height_increase_button">50dp</dimen>
+    <dimen name="text_size_increase_button">16sp</dimen>
+    <dimen name="LinearLayout_list_item">16dp</dimen>
+    <dimen name="text_size_name">24sp</dimen>
+    <dimen name="paddingLeft_product">10dp</dimen>
+    <dimen name="paddingLeft_price">10dp</dimen>
+    <dimen name="RelativeLayout_padding_catalog">16dp</dimen>
+    <dimen name="layout_width_image_view">120dp</dimen>
+    <dimen name="layout_height_image_view">120dp</dimen>
+    <dimen name="layout_marginTop_image_view">16dp</dimen>
+    <dimen name="padding_add_image">16dp</dimen>
+    <dimen name="layout_width_image_view_list">70dp</dimen>
+    <dimen name="layout_height_image_view_list">70dp</dimen>
+    <dimen name="paddingLeft_LinearLayout">16dp</dimen>
+</resources>

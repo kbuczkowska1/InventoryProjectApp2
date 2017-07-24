@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InventoryProject</string>
+    <string name="delete_all">Delete All</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="hint_quantity"> 0 </string>
+    <string name="hint_price">hint price</string>
+    <string name="price">Price:</string>
+    <string name="hint_product_name">Hint product name</string>
+    <string name="product_name">Product name:</string>
+    <string name="items_left">Items left:</string>
+    <string name="sell">Sell</string>
+    <string name="save">Save</string>
+    <string name="order_more">Order More</string>
+    <string name="name">name</string>
+    <string name="_1">1</string>
+    <string name="_50">50</string>
+    <string name="get_started_by_adding_a_product">Get started by adding a product</string>
+    <string name="add_image">add image</string>
+    <string name="picture_of_a_product">picture of a product</string>
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_editor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/LinearLayout_activity_editor"
+    tools:context="com.example.android.inventoryproject.EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/product_name"
+            android:textSize="@dimen/text_size_product_name"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/hint_product_name"
+            android:paddingLeft="@dimen/paddingLeft_hint_product_name"
+            android:textSize="@dimen/text_size_hint_product_name"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/price"
+            android:textSize="@dimen/text_size_price"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/hint_price"
+            android:inputType="number"
+            android:maxLength="5"
+            android:paddingLeft="@dimen/paddingLeft_hint_price"
+            android:textSize="@dimen/text_size_hint_number"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/decrease_button"
+            android:layout_width="@dimen/layout_width_decrease_button"
+            android:layout_height="@dimen/layout_height_decrease_button"
+            android:text="@string/minus"
+            android:textSize="@dimen/text_size_decrease_button" />
+
+        <EditText
+            android:id="@+id/edit_product_quantity"
+            android:layout_width="@dimen/layout_width_hint_quantity"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="@string/hint_quantity"
+            android:inputType="number"
+            android:maxLength="5" />
+
+        <Button
+            android:id="@+id/increase_button"
+            android:layout_width="@dimen/layout_width_increase_button"
+            android:layout_height="@dimen/layout_height_increase_button"
+            android:text="@string/plus"
+            android:textSize="@dimen/text_size_increase_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/padding_add_image"
+            android:text="@string/add_image" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/layout_width_image_view"
+        android:layout_height="@dimen/layout_height_image_view"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/layout_marginTop_image_view"
+        android:contentDescription="@string/picture_of_a_product"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>
+
+
